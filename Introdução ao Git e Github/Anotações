@@ -1,0 +1,17 @@
+Clonando o repositório remoto para a máquina local.
+
+O Git Bash é um terminal estendido feito para otimizar o uso do Git.
+
+Diferente do instrutor do curso, que realizou o procedimento utilizando a interface do Git Bash no Ubuntu, eu realizei os seguintes passos:
+
+1. Selecionei a pasta no computador onde eu desejava clonar o repositório do Github;
+2. Com o botão direito do mouse, selecionei 'abrir no terminal';
+3. Digitei o comando 'git clone git@github.com:ttp3r/dio-desafio-github.git' pois eu já havia configurado a chave ssh em outra ocasião;
+4. Após clonar o repositório, utilizei o comando 'cd dio-desafio-github' para entrar na pasta onde o repositório foi clonado;
+5. Dentro desta pasta criei a pasta 'Introdução ao Git e Github' para organizar os arquivos;
+6. Dentro da pasta 'Introdução ao Git e Github' criei este arquivo .txt para guardar as anotações da aula;
+7. Utilizei o comando 'git status' para verificar se a nova pasta e arquivo já haviam sido identificados pelo Git;
+8. Foi localizado como: Untracked files: (use "git add <file>..." to include in what will be commited)
+"Introdu\303\247\303\243o ao Git e Github/"
+nothing added to commit but untracked files present (use "git add" to track);
+
