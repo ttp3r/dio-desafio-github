@@ -14,4 +14,9 @@ Diferente do instrutor do curso, que realizou o procedimento utilizando a interf
 8. Foi localizado como: Untracked files: (use "git add <file>..." to include in what will be commited)
 "Introdu\303\247\303\243o ao Git e Github/"
 nothing added to commit but untracked files present (use "git add" to track);
+9. Para enviar a nova pasta efetivamente para o controle de versão, utilizei o comando 'git add .', que poderia ser também 'git add -a'se eu quisesse adicionar todos os arquivos;
+10. Ao dar um novo 'git status', verifiquei que as novas alterações já estão sendo consideradas no controle de versão local, mas ainda não foram adicionadas oa repositório remoto. Estão em staging;
+11. Utilizei o comando 'git commit -m "Inclusão das anotações do curso de Git/Github"' para commitar as mudanças, ou seja, empurrá-las para o repositório remoto com o devido comentário explicando o commit;
+12. Ao dar um novo 'git status' o Git informa que há um commit local, que para ser enviado efetivamente para a nuvem é preciso dar um 'push';
+13. Utilizei o comando 'git push origin main' para enviar todos os commits locais para o repositório remoto do Github.
 
